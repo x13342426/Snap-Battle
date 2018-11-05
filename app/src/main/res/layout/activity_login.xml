@@ -64,6 +64,7 @@
                         android:textSize="15sp" />
 
                     <EditText
+                        android:id="@+id/tUsn"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -73,6 +74,8 @@
                         android:paddingRight="15dp"
                         android:textColor="@color/white"
                         android:textSize="15sp" />
+
+
 
                 </LinearLayout>
 
@@ -92,6 +95,7 @@
                         android:textSize="15sp" />
 
                     <EditText
+                        android:id="@+id/tPass"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_marginTop="5dp"
@@ -107,6 +111,8 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/Blogin"
+                android:onClick="onButtonClick"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_below="@+id/linlay1"
