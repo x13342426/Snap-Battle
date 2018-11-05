@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Login UI 2</string>
+        <string name="result_txt_default">Please focus camera to QR Code"</string>
+
+
+
+
 </resources>
